@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Favicon TO ADD 
+      <link rel="icon" href="./favicon.png"> 
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Curtis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <!-- flexbox, media queries, and CSS variables.
+
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+-->
+
+  <body>
+    <header class="header">
+      <h1>John Curtis</h1>
+      <p>Web Developer</p>
+    </header>
+
+    <!-- Navigation -->
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- About -->
+
+      <section id="about">
+        <h2>About</h2>
+        <p>Information about me</p>
+      </section>
+
+      <!-- Projects -->
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+          <h3>Horiseon Social Solutions</h3>
+          <a href="https://t4-k1.github.io/challenge01/"
+            ><img src="/assets/images/horiseon.png"
+          /></a>
+          <p>
+            This site began was initially coded with generic, highly redundant
+            HTML and CSS which was refactored entirely to achieve the same look
+            with significantly less code.
+          </p>
+        </article>
+        <article>
+          <h3>Project 2 Placeholder</h3>
+          <p>Project 2 placeholder about</p>
+        </article>
+      </section>
+
+      <!-- Contact -->
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <ul>
+          <li><a href="#email">Email</a></li>
+          <li><a href="#linkedin">LinkedIn</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">&copy; 2023 John Curtis</p>
+    </footer>
+  </body>
+</html>

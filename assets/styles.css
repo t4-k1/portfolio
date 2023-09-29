@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.8rem;
+}
