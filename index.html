@@ -39,7 +39,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
   <body>
     <header class="header">
       <div>
-        <img src="./assets/images/funglasses.jpg" alt="John as a child" />
+        <img
+          src="./assets/images/funglasses.jpg"
+          alt="John trying to look like Morpheus"
+        />
       </div>
       <div>
         <h1>hi, i'm john</h1>
@@ -53,7 +56,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -61,33 +63,47 @@ THEN I am presented with a responsive layout that adapts to my viewport
     <main>
       <!-- About -->
 
-      <section id="about">
+      <section class="about" id="about">
         <h2>About</h2>
-        <p>Information about me</p>
+        <p>
+          I am a naturally curious person who has always had an interest in
+          building and learning how things work.
+        </p>
+        <p>
+          Currently I am enrolled in a fast-paced full stack development
+          bootcamp.
+        </p>
       </section>
 
       <!-- Projects -->
 
-      <section id="projects">
+      <section class="projects" id="projects">
         <h2>Projects</h2>
-
-        <article>
-          <h3>Horiseon Social Solutions</h3>
-          <a href="https://t4-k1.github.io/challenge01/"
-            ><img
-              src="./assets/images/horiseon.png"
-              alt="project 1 horiseon data solutions site"
-          /></a>
-          <p>
-            This site was initially coded with generic, highly redundant HTML
-            and CSS which was refactored entirely to achieve the same look with
-            significantly less code.
-          </p>
-        </article>
-        <article>
-          <h3>Project 2 Placeholder</h3>
-          <p>Project 2 placeholder about</p>
-        </article>
+        <div class="projects-container">
+          <article>
+            <h3>Horiseon Social Solutions</h3>
+            <a href="https://t4-k1.github.io/challenge01/"
+              ><img
+                src="./assets/images/horiseon.png"
+                alt="project 1 horiseon data solutions site"
+            /></a>
+            <p>
+              This site was initially coded with generic, highly redundant HTML
+              and CSS which was refactored entirely to achieve the same look
+              with significantly less code.
+            </p>
+          </article>
+          <article>
+            <h3>Project 2 Placeholder</h3>
+            <a href="https://github.com/t4-k1"
+              ><img src="./assets/images/placeholder.png" alt="placeholder"
+            /></a>
+            <p>
+              Project 2 placeholder description where I will explain what this
+              project is about.
+            </p>
+          </article>
+        </div>
       </section>
 
       <!-- Contact -->
@@ -95,9 +111,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
       <section id="contact">
         <h2>Contact Me</h2>
         <ul>
-          <li><a href="#email">Email</a></li>
-          <li><a href="#linkedin">LinkedIn</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="mailto:fake@fake.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
         </ul>
       </section>
     </main>
