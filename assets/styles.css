@@ -1,14 +1,56 @@
 body {
   font-family: "Montserrat", Arial, sans-serif;
+  background-color: #0492c2;
 }
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header div {
+  margin-left: 20px;
+}
+
+.header h1 {
+  padding-top: 10px;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  opacity: 80%;
+}
+
+/* Navigation */
 
 ul {
   list-style: none;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 2rem;
+}
+
+nav li {
+  padding: 0 100px;
+}
+
 a {
   text-decoration: none;
 }
+
+a:visited {
+  color: blue;
+}
+
+/* Footer */
 
 footer {
   font-size: 0.8rem;

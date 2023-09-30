@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Favicon TO ADD 
-      <link rel="icon" href="./favicon.png"> 
-    -->
+    <link rel="icon" href="./assets/images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>John Curtis</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,10 +34,17 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 -->
 
+  <!-- Header -->
+
   <body>
     <header class="header">
-      <h1>John Curtis</h1>
-      <p>Web Developer</p>
+      <div>
+        <img src="./assets/images/funglasses.jpg" alt="John as a child" />
+      </div>
+      <div>
+        <h1>hi, i'm john</h1>
+        <p>an aspiring web developer</p>
+      </div>
     </header>
 
     <!-- Navigation -->
@@ -69,12 +74,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
         <article>
           <h3>Horiseon Social Solutions</h3>
           <a href="https://t4-k1.github.io/challenge01/"
-            ><img src="/assets/images/horiseon.png"
+            ><img
+              src="./assets/images/horiseon.png"
+              alt="project 1 horiseon data solutions site"
           /></a>
           <p>
-            This site began was initially coded with generic, highly redundant
-            HTML and CSS which was refactored entirely to achieve the same look
-            with significantly less code.
+            This site was initially coded with generic, highly redundant HTML
+            and CSS which was refactored entirely to achieve the same look with
+            significantly less code.
           </p>
         </article>
         <article>
@@ -90,7 +97,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
         <ul>
           <li><a href="#email">Email</a></li>
           <li><a href="#linkedin">LinkedIn</a></li>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </section>
